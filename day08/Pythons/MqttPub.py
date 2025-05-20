@@ -2,17 +2,17 @@
 # paho-mqtt 라이브러리 설치
 # pip install paho-mqtt
 import paho.mqtt.client as mqtt
-import json
 import datetime as dt
 import time
+import json
 import uuid
 from collections import OrderedDict
 import random
 
-PUB_ID = 'IOT52' # 본인 아이피 마지막주소
-BROKER = '210.119.12.52' # 본인 아이피
+PUB_ID = 'IOT69' # 본인 아이피 마지막주소
+BROKER = '210.119.12.69' # 본인 아이피
 PORT = 1883
-TOPIC = 'smarthome/52/topic'  # publish/subscribe에서 사용할 토픽
+TOPIC = 'smarthome/69/topic'  # publish/subscribe에서 사용할 토픽
 COLORS = ['RED', 'ORANGE', 'YELLOW', 'GREEN', 'BLUE', 'NAVY', 'PURPLE']
 COUNT = 0
 
