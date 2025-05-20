@@ -497,5 +497,7 @@ IoT 개발자 WPF 학습리포지토리 2025
     ```
 5. WPF MVVM 전체구현
 6. MqttPub.py와 Publish된 IoT데이터 WPF에서 Subscribe 예제
-    
+
+    https://github.com/user-attachments/assets/0a79ec57-75be-48e8-b282-2bfb36e160a1
+
 ## 10일차
