@@ -1,0 +1,25 @@
+﻿<mah:MetroWindow x:Class="CommunityToolkitApp01.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CommunityToolkitApp01.Views"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Title="CT RealTime Clock" Height="350" Width="600">
+    <mah:MetroWindow.IconTemplate>
+        <DataTemplate>
+            <StackPanel Orientation="Horizontal">
+                <iconPacks:PackIconMaterial Kind="Home" Width="16" Height="16" Margin="10,7,0,0" Foreground="White" />
+            </StackPanel>
+        </DataTemplate>
+    </mah:MetroWindow.IconTemplate>
+    
+    <Grid>
+        <TextBlock Text="{Binding CurrentTime}" 
+               FontSize="36" Margin="20"
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center" />
+    </Grid>
+</mah:MetroWindow>

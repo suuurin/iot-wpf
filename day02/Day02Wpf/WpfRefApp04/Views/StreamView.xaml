@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfRefApp04.Views.StreamView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:cal="http://caliburnmicro.com"
+        xmlns:local="clr-namespace:WpfRefApp04.Views"
+        mc:Ignorable="d"
+        Title="StreamView" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Button DockPanel.Dock="Top" Content="시작" cal:Message.Attach="StartStreaming" Margin="5" />
+            <ListBox ItemsSource="{Binding Logs}" Margin="5" Height="200"/>
+        </StackPanel>        
+    </Grid>
+</Window>
